@@ -9,7 +9,7 @@ Implemented functions allow to display all of image's BPB data ommiting the boot
 
 ## Sample program
 Before we can start using POSIX-like functions, we have to open our image and initialize the volume. Those procedures are meant to be simillar to what we can find in an operating system.
-```
+```cpp
 #include "file_reader.h"
 #include <assert.h>
 #include <stdlib.h>
